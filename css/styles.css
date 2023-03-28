@@ -1,3 +1,10 @@
+:root {
+--primary-text-colour: #434455;
+--title-text-colour: #2E2F42;
+--accent-colour: #4D5AE5;
+
+}
+
 body{
     background-color: #fff;
     color: #434455;
@@ -12,25 +19,78 @@ body{
 /* emphisis #4D5AE5 */
 /* secondary color of background #F4F4FD */
 .logo{
-    color: 2E2F42;
+    color: var(--title-text-colour);
 }
 .logo-web{
-    color: #4D5AE5;
+    color: var(--accent-colour)
 }
 /* site-nav */
 
- .site-nav {
-    color: #2E2F42;
+ .nav-link {
+    color: var(--title-text-colour);
  }
- .site-nav .link:hover,
- .site-nav .link:focus {
+ .nav-link:hover,
+ .nav-link:focus {
     color: #404BBF;
  }
  .address-link {
-    color: #2E2F42;;
+    color: var(--primary-text-colour);
  }
 
  .address-link:hover,
  .address-link:active {
     color: #404BBF;
  }
+ /* section */
+ .section-title{
+    color: var(--title-text-colour);
+ }
+
+ /* button */
+ .button-service{
+    background-color: var(--accent-colour);
+    color: #fff;
+    border-color: transparent;
+ }
+
+ /* hero section */
+ .hero{
+    background-color: var(--title-text-colour);
+ }
+ .hero-headline{
+    color: white;
+ }
+
+ 
+
+ /* features section */
+ 
+.features-items-headline{
+    color: var(--title-text-colour);
+}
+.features-items-text{
+    color: var(--primary-text-colour);
+}
+
+/* What are we doing section */
+
+
+/* out team */
+
+.team-items-headline{
+    color: var(--title-text-colour);
+}
+.team-list-text{
+    columns: var(--primary-text-colour);
+}
+
+/* footer */
+.footer-logo{
+    color: #F4F4FD;
+}
+.footer{
+    background-color: #2E2F42;
+}
+.footer-text{
+    color: #F4F4FD;
+}
