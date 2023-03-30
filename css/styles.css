@@ -69,7 +69,7 @@ line-height: 1.5;
  }
 
  .address-link:hover,
- .address-link:active {
+ .address-link:focus{
     color: var(--hoover-color);
  }
  /* section */
