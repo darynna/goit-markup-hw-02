@@ -42,7 +42,6 @@ body{
 
  .nav-link {
     color: var(--title-text-colour);
-font-family: Roboto;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -54,8 +53,6 @@ text-decoration: none;
  }
  .address-link {
     color: var(--primary-text-colour);
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
@@ -68,7 +65,6 @@ text-decoration: none;
  /* section */
  .section-title{
     color: var(--title-text-colour);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
@@ -168,6 +164,7 @@ background-color: var(--hoover-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer
 
 }
 
@@ -176,3 +173,13 @@ background-color: var(--hoover-color);
     color: white;
 }
 
+
+
+.portfolio-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-text{
+}
