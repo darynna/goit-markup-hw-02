@@ -43,7 +43,8 @@ body{
 .link{
     text-decoration: none;
 }
-.list:hover{
+.list:hover,
+.list:focus{
     color: var(--hoover-color);
 }
 /* site-nav */
@@ -145,8 +146,10 @@ background-color: var(--hoover-color);
 }
 .team-list-text{
     color: var(--primary-text-colour);
-    background-color: #FFFFFF
     
+}
+.team-list{
+    background-color: #FFFFFF
 }
 
 /* footer */
