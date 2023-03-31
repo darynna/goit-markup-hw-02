@@ -3,6 +3,8 @@
 --title-text-colour: #2E2F42; 
 --accent-colour: #4D5AE5;
 --hoover-color: #404BBF;
+--primary-bakground-color: #fff;
+--secondary-background-color: #F4F4FD;
 
 }
 
@@ -11,7 +13,6 @@ body{
     color: var(--primary-text-colour);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -43,10 +44,7 @@ body{
 .link{
     text-decoration: none;
 }
-.list:hover,
-.list:focus{
-    color: var(--hoover-color);
-}
+
 /* site-nav */
 
  .nav-link {
@@ -75,7 +73,6 @@ line-height: 1.5;
  /* section */
  .section-title{
     color: var(--title-text-colour);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
 /* identical to box height, or 111% */
@@ -88,7 +85,7 @@ text-transform: capitalize;
  /* button */
  .button-service{
     background-color: var(--accent-colour);
-    color: #fff;
+    color: var(--primary-bakground-color);
     font-family: "Roboto", sans-serif;
     border-color: transparent;
     font-weight: 500;
@@ -106,8 +103,7 @@ background-color: var(--hoover-color);
     background-color: var(--title-text-colour);
  }
  .hero-headline{
-    color: white;
-    font-weight: 700;
+    color:var(--primary-bakground-color);
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -135,7 +131,7 @@ background-color: var(--hoover-color);
 
 /* out team */
 .section-team{
-    background-color: #F4F4FD;
+    background-color: var(--secondary-background-color);
 }
 .team-items-headline{
     color: var(--title-text-colour);
@@ -149,8 +145,7 @@ background-color: var(--hoover-color);
     
 }
 .team-list{
-    background-color: #FFFFFF
-}
+    background-color: var(--primary-bakground-color)
 
 /* footer */
 .footer-logo{
@@ -164,13 +159,13 @@ background-color: var(--hoover-color);
 
 }
 .footer-logo-studio{
-    color: #F4F4FD;
+    color: var(--secondary-background-color);
 }
 .footer{
     background-color: #2E2F42;
 }
 .footer-text{
-    color: #F4F4FD;
+    color: var(--secondary-background-color);
 }
 
 
@@ -187,7 +182,7 @@ background-color: var(--hoover-color);
 */
 
 .portfolio-buttons{
-    background-color: #F4F4FD;
+    background-color: var(--secondary-background-color);
     color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     border-color: transparent;
@@ -202,7 +197,7 @@ background-color: var(--hoover-color);
 .portfolio-buttons:hover,
 .portfolio-buttons:focus{
     background-color: var(--hoover-color);
-    color: white;
+    color: var(--white-color);
 }
 
 
